@@ -1,4 +1,3 @@
-package LabActs;
 import java.util.Scanner;
 public class LazaroKeanu_LabAct3 {
     public static void main(String[] args) {

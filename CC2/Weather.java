@@ -1,4 +1,3 @@
-package LabActs;
 import java.util.Scanner;
 
 public class Weather {

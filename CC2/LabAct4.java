@@ -1,4 +1,3 @@
-package LabActs;
 import java.util.*;
 public class LabAct4 {
     public static void main(String[] args) {

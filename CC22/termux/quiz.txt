@@ -1,0 +1,69 @@
+    1  pkg search git
+    2  ls
+    3  pkg install cmatrix
+    4  pkg install neofetch
+    5  pkg install git
+    6  pkg install gh
+    7  cd data/data/com.termux/files/home
+    8  ls
+    9  cd data
+   10  termux-setup-storage
+   11  ls
+   12  cd storage
+   13  ls
+   14  cd chared
+   15  cd shared
+   16  mkdir termux
+   17  ls
+   18  cd termux
+   19  touch testfile.txt
+   20  ls
+   21  git clone https://github.com/klazaroc/163632373-lazaro
+   22  q
+   23  git auth log
+   24  git auth login
+   25  gh auth login
+   26  q
+   27  exit
+   28  history
+   29  termux-setup-storage
+   30  ls
+   31  cd storage
+   32  ls
+   33  cd shared
+   34  cd termux
+   35  ls
+   36  git clone https://github.com/klazaroc/163632373-lazaro
+   37  gh auth login
+   38  pkg upgrade
+   39  gh auth login
+   40  git clone https://github.com/klazaroc/163632373-lazaro
+   41  ls
+   42  cd 163632373-lazaro
+   43  cd cc22
+   44  mkdir termux
+   45  ls
+   46  cd..
+   47  cd ..
+   48  ls
+   49  cd termux
+   50  ls
+   51  mv testfile.txt
+   52  mv testfile.txt 163632373-lazaro/cc22/termux
+   53  cd 163632373-lazaro
+   54  cd cc22/termux
+   55  ls
+   56  nano testfile.txt
+   57  ls
+   58  mkdir testfolder
+   59  cd testfolder
+   60  touch testfile2.txt
+   61  ls
+   62  rm testfile2.txt
+   63  ls
+   64  cd ..
+   65  ls
+   66  rm testfolder
+   67  rm -r testfolder
+   68  ls
+   69  history > quiz.txt

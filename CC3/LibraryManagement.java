@@ -21,7 +21,7 @@ public class LibraryManagement {
             System.out.println("3. Return a book");
             System.out.println("4. Search for a book by title");
             System.out.println("5. Exit");
-            System.out.print("Enter your choice: ");
+            System.out.print("\nEnter your choice: ");
             choice = input.nextInt();
             input.nextLine(); 
 
@@ -30,22 +30,22 @@ public class LibraryManagement {
                     library.displayAllBooks();
                     break;
                 case 2:
-                    System.out.print("Enter the title to borrow: ");
-                    String borrowTitle = input.nextLine().trim();
+                    System.out.print("\nEnter the title to borrow: ");
+                    String borrowTitle = input.nextLine();
                     library.borrowBook(borrowTitle);
                     break;
                 case 3:
-                    System.out.print("Enter the title to return: ");
-                    String returnTitle = input.nextLine().trim();
+                    System.out.print("\nEnter the title to return: ");
+                    String returnTitle = input.nextLine();
                     library.returnBook(returnTitle);
                     break;
                 case 4:
-                    System.out.print("Enter the title to search: ");
-                    String searchTitle = input.nextLine().trim();
+                    System.out.print("\nEnter the title to search: ");
+                    String searchTitle = input.nextLine();
                     library.searchBookByTitle(searchTitle);
                     break;
                 case 5:
-                    System.out.println("Exiting library program...");
+                    System.out.println("Goodbye!");
                     break;
                 default:
                     System.out.println("Invalid choice. Try again.");
@@ -77,7 +77,7 @@ class Book {
     public void borrowBook() {
         if (isAvailable) {
             isAvailable = false;
-            System.out.println("You have borrowed: " + title);
+            System.out.println("You have borrowed: " + title + " by " + author);
         } else {
             System.out.println("This book is currently unavailable.");
         }
@@ -86,7 +86,7 @@ class Book {
     public void returnBook() {
         if (!isAvailable) {
             isAvailable = true;
-            System.out.println("You have returned: " + title);
+            System.out.println("You have returned: " + title + " by " + author);
         } else {
             System.out.println("This book was not borrowed.");
         }

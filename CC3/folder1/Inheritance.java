@@ -1,4 +1,4 @@
-package CC3;
+package CC3.folder1;
 public class Inheritance {
     public static void main(String[] args) {
         Mammal dog = new Mammal(49.9, 38.5,"black", 4, true);

@@ -49,7 +49,6 @@ public class InheritanceandAbstraction {
 
         Scanner input = new Scanner(System.in);
 
-        // Array of Animal references
         Animal[] animals = {
             new Dog(),
             new Cat(),
